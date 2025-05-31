@@ -4,7 +4,7 @@ Config.AppKey = 'news-app'
 Config.PhoneResourceName = 'yseries'
 
 -- Framework Detection (Auto-detects by default)
-Config.Framework = 'auto' -- Options: 'auto', 'qb-core', 'es_extended', 'qbox', 'standalone'
+Config.Framework = 'auto' -- Options: 'qb-core', 'es_extended', 'qbox', 'standalone'
 
 -- Language Settings
 Config.Language = 'en'
