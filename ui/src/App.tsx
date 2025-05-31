@@ -156,7 +156,7 @@ interface ArticleViewProps {
 const ArticleView: React.FC<ArticleViewProps> = ({ article, onBack, canEdit }) => {
   return (
     <div className="article-view">
-      <button className="back-button" onClick={onBack}>Back</button>
+      <button className="back-button\" onClick={onBack}>Back</button>
       {article.image && (
         <img src={article.image} alt={article.title} className="article-full-image" />
       )}
